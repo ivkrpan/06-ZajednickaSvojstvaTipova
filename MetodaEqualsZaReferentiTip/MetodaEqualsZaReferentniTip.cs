@@ -35,7 +35,7 @@ namespace Vsite.CSharp
             if (GetType() != obj.GetType())
                 return false;
 
-            return base.Equals((Osoba)obj);
+            return Equals((Osoba)obj);
         }
 
 
